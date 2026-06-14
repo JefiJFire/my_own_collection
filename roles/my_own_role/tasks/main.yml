@@ -1,0 +1,10 @@
+---
+- name: Create file via my_own_module
+  my_own_namespace.yandex_cloud_elk.my_own_module:
+    path: "{{ file_path }}"
+    content: "{{ file_content }}"
+  register: module_result
+
+- name: Show result
+  ansible.builtin.debug:
+    var: module_result

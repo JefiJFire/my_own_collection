@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Your Name
+  description: Role that uses my_own_module to create files
+  license: GPL-2.0-or-later
+  min_ansible_version: "2.9"
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+dependencies: []
